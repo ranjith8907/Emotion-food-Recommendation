@@ -1,0 +1,282 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recommendation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href={{url_for('static',filename="style.css")}} />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#food">Category</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <h1 class="logo">FOOD RECOMMENDATION</h1>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Eat Right Food</h1>
+            <p>Eat Healty, it is good for our health.</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+            <a href="/face" class="btn btn-primary">Face</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>Food Recommendation Based on Facial recognition.</h2>
+                <p>
+                    -> It gives a mutual experience towards the user and the restaurant to have their specific
+                    interest and items towards the food.<br>
+                    -> By consuming food based on their mood which helps in improving the health factor and
+                    reduce in digestion problems or issues since it is completely based on to get the highest
+                    priority of food they need to consume. 
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://assets.weforum.org/editor/-QmGlN98sTlhH3gbavXB2c8pdxut6NU3WcwemKtp45g.png" alt="food" />
+            </div>
+        </div>
+    </section>
+    <section id="food">
+        <h2>Types of food</h2>
+        <div class="food-container container">
+            <div class="food-type fruite">
+                <div class="img-container">
+                    <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2021/12/Best-Non-Veg-Restaurants-in-Mumbai.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Non_Veg</h3>
+                        <a href="https://en.wikipedia.org/wiki/Non-vegetarian_food_in_India" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="https://www.wazwanrestaurant.com/images/blog/Veg-Food-UAE.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Veg</h3>
+                        <a href="https://en.wikipedia.org/wiki/Vegetarian_cuisine" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grin">
+                <div class="img-container">
+                    <img src="https://thumbs.dreamstime.com/b/assortment-salty-snacks-top-view-table-scene-dark-wood-background-192482130.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Snacks</h3>
+                        <a href="https://en.wikipedia.org/wiki/Snack" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Food Menu</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://spicecravings.com/wp-content/uploads/2021/04/Chicken-Biryani-Featured-2.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Chicken Biryani</h2>
+                    <p>Res: 12'O Clock Biriyani</p>
+                    <p class="food-price">Price: &#8377; 150</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://www.kannammacooks.com/wp-content/uploads/tomato-dosai-1-4.jpg" alt="error" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Paper Roast Dosa</h2>
+                    <p>Res: Adyar Ananda Bhavan </p>
+                    <p class="food-price">Price: &#8377; 80</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://farm9.staticflickr.com/8586/16023214373_90552b64f6_o.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Parotta</h2>
+                    <p>Res: Chennai Biryani</p> 
+                    <p class="food-price">Price: &#8377; 40</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://www.indianveggiedelight.com/wp-content/uploads/2020/06/veg-fried-rice-featured.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Veg Rice</h2>
+                    <p>Res: Saravana Bhavan</p>
+                    <p class="food-price">Price: &#8377; 130</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://mealhub.in/wp-content/uploads/2021/04/chic-fr.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Chicken Fried Rice</h2>
+                    <p>Res: Vaani Villa</p>
+                    <p class="food-price">Price: &#8377; 100</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://images.herzindagi.info/image/2020/Jun/chocolate-parle-g-ice-cream.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Ice Cream</h2>
+                    <p>Res: Lassi House </p>
+                    <p class="food-price">Price: &#8377; 80</p>
+                </div>
+            </div>
+        </div>
+       <center><a href="/order" class="btn btn-primary">Order Now</a></center>
+    </section>
+    <section id="testimonials">
+        <h2 class="testimonial-title">What Our Customers Say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
+                        <p class="customer-name">Ross Lee</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
+                        <p class="customer-name">Amelia Watson</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
+                        <p class="customer-name">Ben Roy</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+            </div>
+
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2>Restraunt &copy; all rights reserved</h2>
+    </footer>
+    <!-- .................../ JS Code for smooth scrolling /...................... -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+                {
+                    scrollTop: $(hash).offset().top,
+                },
+                800,
+                function () {
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                }
+            );
+        } // End if
+    });
+});
+</script>
+
+</html>
+
+</body>
+
+</html>
